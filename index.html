@@ -175,14 +175,22 @@ font-size:.9rem;
 <h1>Letters While I'm Away ❤️</h1>
 
 <p>
-
 If you're reading this, then I'm probably a long way from home.
 
-    <div id="letters"></div>
+<br><br>
+
 I wanted to leave you something to open every day while I'm away.
+
 I hope these little letters make the distance feel just a little smaller.
 
+</p>
+
+</header>
+
+<div id="letters"></div>
+
     <script>
+const today = new Date(2026-07-13);   
 const letters = [
         
             "13th- Hey babe! Day one so I doubt I'll even be there yet. I'm currently sat on my sofa you're at the pub and I miss you now. I probably will be missing you while you're reading this so I can't imagine how much I'll miss you by the end of this. I hope you know I'm thinking of you. Good morning, Goodnight, I love you ",
@@ -207,7 +215,6 @@ const letters = [
             "Day 20"
         ];
 
-        const today = new Date();
 
         const daysPassed = Math.floor(
             (today - startDate) / (1000 * 60 * 60 * 24)
