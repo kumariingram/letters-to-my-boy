@@ -226,7 +226,7 @@ const letters = [
             if (index <= daysPassed) {
                 div.innerHTML = `<h2>${letter}</h2>`;
             } else {
-                div.innerHTML = `<div class="locked">🔒 ${letter} Locked</div>`;
+    div.innerHTML = `<div class="locked">🔒 Letter ${index + 1} Locked</div>`;
             }
 
             container.appendChild(div);
