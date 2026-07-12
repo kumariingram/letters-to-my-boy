@@ -224,7 +224,8 @@ const letters = [
             div.classList.add("letter");
 
             if (index <= daysPassed) {
-                div.innerHTML = `<h2>${letter}</h2>`;
+        const parts = letter.split("||");
+        div.innerHTML = `<h2>${parts[0]}</h2><p>${parts[1].replace(/\n/g, "<br>")}</p>`;
             } else {
     div.innerHTML = `<div class="locked">🔒 Letter ${index + 1} Locked</div>`;
             }
