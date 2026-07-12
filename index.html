@@ -183,8 +183,35 @@ I wanted to leave you something to open every day while I'm away.
 I hope these little letters make the distance feel just a little smaller.
 
     <script>
-No matter where I am...
-I'll always love you.
+const letters = [
+        
+            "13th- Hey babe! Day one so I doubt I'll even be there yet. I'm currently sat on my sofa you're at the pub and I miss you now. I probably will be missing you while you're reading this so I can't imagine how much I'll miss you by the end of this. I hope you know I'm thinking of you. Good morning, Goodnight, I love you ",
+            "14th- So, it’s the 14th now, here is what I am up to.  Arrive El Dorado airport 0310hrs and depart 0730 hrs, Arrive AV696 Juan Santa Maria Intl Airport, San Jose 0850hrs  , Team to source transport to the hostel - use MUSOC terminal as it is near your hostel., The team can spend today acclimatising to life in central America and exploring some of the sites of Costa  Rica’s capital city, Overnight in Hostel, Dorm rooms for venturers and SIngle rooms for leaders. I love you so much I hope you don’t miss me as much as I’m sure I miss you. I wish you were here. Good morning, Goodnight I love you. ",
+            "15- ",
+            "Day 4",
+            "Day 5",
+            "Day 6",
+            "Day 7",
+            "Day 8",
+            "Day 9",
+            "Day 10",
+            "Day 11",
+            "Day 12",
+            "Day 13",
+            "Day 14",
+            "Day 15",
+            "Day 16",
+            "Day 17",
+            "Day 18",
+            "Day 19",
+            "Day 20"
+        ];
+
+        const today = new Date();
+
+        const daysPassed = Math.floor(
+            (today - startDate) / (1000 * 60 * 60 * 24)
+        );
 
         // CHANGE THIS TO THE DATE YOU WANT DAY 1 TO UNLOCK
         const startDate = new Date("2026-07-01");
